@@ -61,15 +61,15 @@
                 &trans      &kp HOME      &kp UP        &kp END      &trans       &trans            &trans  &trans      &kp INS   &trans   &kp PSCRN   &kp SLCK       &kp PAUSE_BREAK   &reset
                 &trans      &kp LEFT      &kp DOWN      &kp RIGHT    &trans       &trans            &trans  &trans      &trans    &trans   &kp HOME    &kp PG_UP      &bootloader
                 &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE   &trans       &bootloader       &trans  &trans      &trans    &kp END  &kp PG_DN   &kp C_NEXT
-               &bt BT_PRV   &bt BT_NXT    &trans        &trans       &trans       &trans            &trans  &bt BT_CLR   &trans
+                &bt BT_PRV   &bt BT_NXT    &trans        &trans       &trans       &trans            &trans  &bt BT_CLR   &trans
             >;
         };
         layer_raise {
             bindings = <
-                &trans      &trans              &trans    &trans                &trans       &trans            &trans  &trans       &trans   &RGB_HUD   &RGB_HUI     &RGB_TOG  &BL_TOG  &trans
+                &trans      &trans              &trans    &trans                &trans       &trans            &trans  &trans       &trans   &trans   &trans     &trans  &trans  &trans
                 &trans      &trans              &trans    &trans                &trans       &trans            &trans  &trans       &trans   &trans   &trans     &trans    &trans   &reset
-                &trans      &move_desktop_left  &trans    &move_desktop_right   &trans       &trans            &trans  &trans       &trans   &trans   &trans     &trans    &bootloader
-                &trans      &trans              &trans    &trans                &trans       &bootloader       &trans  &trans       &trans   &trans   &trans     &trans
+                &trans      &move_desktop_left  &trans    &move_desktop_right   &trans       &trans            &trans  &trans       &trans   &trans   &trans     &trans    &trans
+                &trans      &trans              &trans    &trans                &trans       &trans            &trans  &trans       &trans   &trans   &trans     &trans
                 &bt BT_PRV  &bt BT_NXT          &trans    &trans                &trans       &trans            &trans  &bt BT_CLR   &trans
             >;
         };
